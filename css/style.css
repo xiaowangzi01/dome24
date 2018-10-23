@@ -1,0 +1,169 @@
+/* 全局样式 */
+*{margin:0;padding:0;}
+li{list-style:none;}
+img{border:none; vertical-align:middle;}
+a{text-decoration:none;color:#282828;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+body{font:12px "微软雅黑";background-color: #f0f3ef;}
+.left{float:left;}
+.right{float:right;}
+.clearBoth{clear:both;height:0;overflow:hidden;}
+
+.headerWarp{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #dededf;
+	background-color:#e3e4e5 ;
+}
+.header{
+	width: 1190px;
+	height: 30px;
+	margin: 0 auto;
+}
+.header a:hover{
+	color: red;
+}
+.addr{
+	margin-left: 209px;
+	height: 30px;
+	line-height: 30px;
+}
+.dl{
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 223px;
+}
+.dl a:nth-child(2){
+	color: red;
+}
+.nav{
+	
+}
+.nav li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	
+}
+.nav li a{
+	padding: 0 12px;
+	display: inline;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.nav li:nth-child(2) a,.nav li:nth-child(4) a,.nav li:nth-child(5) a,.nav li:nth-child(6) a{
+	padding-right: 24px;
+}
+.nav .iconfont{
+	font-size: 12px;
+	position: absolute;
+	bottom: -8px;
+	right: 10px;
+}
+.search{
+	width: 1190px;
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	width: 190px;
+	height: 170px;
+	overflow: hidden;
+	margin-top: -30px;
+	box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+.search1{
+	margin-left: 130px;
+	margin-top: 25px;
+	position: relative;
+}
+.fir{
+	float:left;
+	width:500px;
+	height:34px;
+	border: none;
+}
+.sec{
+	width:50px;
+	height:35px;
+	border:none; 
+	background:red url(../img/放大镜.jpg) no-repeat center;
+	border-left:none;
+	text-indent:-9999px;
+}
+#box{
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+	left:0px ;
+	top: 34px;
+	width: 398px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+.search1 .iconfont{
+	position: absolute;
+	top: 5px;
+	left: 470px;
+	font-size: 24px;
+}
+.search1 .iconfont:hover{
+	color: red;
+}
+.gwc{
+	width: 188px;
+	height: 33px;
+	border: 1px solid #e3e4e5;
+	position: absolute;
+	left: 901px;
+	top: 25px;
+	background: #fff;
+	text-align: center;
+	line-height: 33px;
+	border-bottom: none;
+	z-index: 1;
+	
+}
+.gwcF{
+	width: 308px;
+	position: absolute;
+	top: 60px;
+	right: 99px;
+	background: #FFFFFF;
+	border: 1px solid #ccc;
+	display: none;
+	text-align: center;
+}
+.gwcF i{
+	display: block;
+	height: 59px;
+	line-height: 59px;
+}
+.gwc:hover{
+	height: 35px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+.ewm{
+	width: 66px;
+	height: 66px;
+	position: absolute;
+	top: -1;
+	right: 0;
+	border: 1px solid #ccc;
+	background: url(../img/未标题-1.jpg) no-repeat center;
+}
+.sj{
+	width: 0;
+	height: 0;
+	border: 7px solid #f0f3ef;
+	border-color:transparent transparent #f0f3ef transparent;  
+	position: absolute;
+	top: -14px;
+	left: 26px;
+}
